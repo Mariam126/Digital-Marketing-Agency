@@ -352,7 +352,7 @@ right: 30% !important;
 }
 .first-section .first-section-body .bottom-img {
   position: absolute;
-  bottom:-170px;
+  bottom:-187px;
   left: 0;
   width: 100%;
   height: auto;
@@ -767,12 +767,13 @@ z-index: 100;
 }
 .work-flow .col-lg-3:not(:nth-child(4)) .box:after{
   content: "\2192";
- font-size: 100px;
- margin: 20px;
+ font-size: 60px;
+ margin: 0 60px;
   position:absolute;
 color:white;
- top:0;
-right:-70%;
+ top:50%;
+right:-60%;
+transform:translate(60%,-50%)
 
 
 }
